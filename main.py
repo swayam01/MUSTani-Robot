@@ -23,9 +23,9 @@ def main():
     
     try:
         speech_text = r.recognize_google(audio).lower().replace("'", "")
-        print("Melissa thinks you said '" + speech_text + "'")
+        print("Mustani thinks you said '" + speech_text + "'")
     except sr.UnknownValueError:
-        print("Melissa could not understand audio")
+        print("Mustani could not understand audio")
     except sr.RequestError as e:
         print("Could not request results from Google Speech Recognition
         service; {0}".format(e))
