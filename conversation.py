@@ -2,9 +2,9 @@ import random
 import tts
 
 def who_are_you():
-    message = ['I am Melissa, your lovely personal assistant.',
-    'Melissa, didnt I tell you before?',
-    'You ask that so many times! I am Melissa.']
+    message = ['I am Mustani, your lovely personal assistant.',
+    'Mustani, didnt I tell you before?',
+    'You ask that so many times! I am Mustani.']
     tts(random.choice(messages))
 
 def how_am_i():
