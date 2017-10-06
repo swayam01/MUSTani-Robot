@@ -22,7 +22,7 @@ pip install matplotlib <br />
 pip install scipy <br />
 
 
-# Key ingredient - From a high-level view, these are the four basic components that make up
+# Key ingredient - From a high-level view
 
 main.py - This involves recording the user’s voice, capturing the
 words from the recording (cancelling any noise and fixing distortion in the process), and
