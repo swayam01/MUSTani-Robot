@@ -1,0 +1,9 @@
+# git exclude
+
+*.pyc
+*.pyo
+*.raw
+*.wav
+*.png
+error.log
+plugins/*
